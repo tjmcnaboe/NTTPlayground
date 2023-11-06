@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-NTTPlayground-bab6bffd-857f-4988-a58b-63131d7d50af</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\EntityCore\EntityCore.csproj" />
+    <ProjectReference Include="..\..\ServerComponents\ServerComponents.csproj" />
+    <ProjectReference Include="..\NTTPlayground.Client\NTTPlayground.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0-rc.2.23480.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.0-rc.2.23480.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0-rc.2.23480.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0-rc.2.23480.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0-rc.2.23480.1" />
+	  <PackageReference Include="Radzen.Blazor" Version="*" />
+	  <PackageReference Include="Yarp.ReverseProxy" Version="2.0.1" />
+	  <PackageReference Include="McNaboe.EntityDataObject.Controller" Version="1.0.0-alpha" />
+	  <PackageReference Include="Riok.Mapperly" Version="3.2.0" />
+  </ItemGroup>
+
+</Project>
